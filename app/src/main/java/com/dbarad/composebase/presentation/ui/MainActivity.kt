@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.dbarad.composebase.presentation.viewmodels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.dbarad.composebase.presentation.screens.Greeting
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -30,21 +31,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier, viewModel: MainViewModel = hiltViewModel()) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    _root_ide_package_.com.dbarad.composebase.presentation.theme.ComposeBaseTheme {
-        Greeting("Android")
     }
 }
