@@ -1,6 +1,5 @@
-package com.dbarad.composebase.ui.theme
+package com.dbarad.composebase.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

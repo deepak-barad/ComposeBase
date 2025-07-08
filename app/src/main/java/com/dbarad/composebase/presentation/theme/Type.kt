@@ -1,4 +1,4 @@
-package com.dbarad.composebase.ui.theme
+package com.dbarad.composebase.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
